@@ -28,10 +28,7 @@ public class Map extends Activity {
 		floors.put("Floor 2", R.drawable.main_building_floor2);
 		floors.put("Floor 3", R.drawable.main_building_floor3);
 		
-		
-		
 		Integer finalChosenFloor = floors.get(chosenFloor);
-		
 		
 		mapFloor.setImageResource(finalChosenFloor);
 		
