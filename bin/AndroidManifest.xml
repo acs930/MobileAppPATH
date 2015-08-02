@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:name="com.example.path.MainActivity"
+            android:name="edu.wit.apppath.MainActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,19 +23,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.path.Map"
+            android:name="edu.wit.apppath.Map"
             android:label="@string/title_activity_map" >
         </activity>
         <activity
-            android:name="com.example.path.Directions"
+            android:name="edu.wit.apppath.Directions"
             android:label="@string/title_activity_directions" >
         </activity>
         <activity
-            android:name="com.example.path.NFC"
+            android:name="edu.wit.apppath.NFC"
             android:label="@string/title_activity_nfc" >
         </activity>
         <activity
-            android:name="com.example.path.FloorSelect"
+            android:name="edu.wit.apppath.FloorSelect"
             android:label="@string/title_activity_floor_select" >
         </activity>
     </application>

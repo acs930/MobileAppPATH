@@ -1,4 +1,4 @@
-package com.example.path;
+package edu.wit.apppath;
 
 import java.util.HashMap;
 import com.polites.android.GestureImageView;

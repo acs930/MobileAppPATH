@@ -1,4 +1,4 @@
-package com.example.path;
+package edu.wit.apppath;
 
 import android.app.Activity;
 import android.os.Bundle;
