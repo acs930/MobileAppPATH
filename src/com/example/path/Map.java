@@ -1,10 +1,9 @@
 package com.example.path;
 
 import java.util.HashMap;
-
-import com.example.path.R.drawable;
 import com.polites.android.GestureImageView;
-
+import edu.wit.apppath.R.drawable;
+import edu.wit.apppath.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;

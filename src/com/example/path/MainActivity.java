@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import edu.wit.apppath.R;
 
 public class MainActivity extends Activity {
 
