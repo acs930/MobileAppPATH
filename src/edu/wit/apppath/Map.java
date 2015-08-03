@@ -23,7 +23,7 @@ public class Map extends Activity {
 		String chosenFloor  = bundle.getString("Floor");
 		HashMap<String, Integer> floors = new HashMap<String, Integer>();
 		
-		floors.put("Floor 0", R.drawable.main_building_floor0);
+		floors.put("Ground Floor", R.drawable.main_building_floor0);
 		floors.put("Floor 1", R.drawable.main_building_floor1);
 		floors.put("Floor 2", R.drawable.main_building_floor2);
 		floors.put("Floor 3", R.drawable.main_building_floor3);
