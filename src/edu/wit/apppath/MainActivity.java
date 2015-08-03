@@ -10,11 +10,12 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageButton;
 import edu.wit.apppath.R;
 
 public class MainActivity extends Activity {
 
-	private Button mapButton, dirButton, nfcButton;
+	private ImageButton mapButton, dirButton, nfcButton;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -46,9 +47,9 @@ public class MainActivity extends Activity {
 			}
 		};
 		
-		mapButton = (Button)findViewById(R.id.map);
-		dirButton = (Button)findViewById(R.id.direction);
-		nfcButton = (Button)findViewById(R.id.nfc);
+		mapButton = (ImageButton)findViewById(R.id.map);
+		dirButton = (ImageButton)findViewById(R.id.direction);
+		nfcButton = (ImageButton)findViewById(R.id.nfc);
 		
 		mapButton.setOnClickListener(listener);
 		dirButton.setOnClickListener(listener);

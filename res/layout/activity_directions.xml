@@ -9,6 +9,33 @@
         android:layout_height="wrap_content"
         android:text="@string/from" />
 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:entries="@array/room_arrays"
+        android:prompt="@string/room_prompt" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="19dp"
+        android:text="@string/to" />
+    
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:entries="@array/room_arrays"
+        android:prompt="@string/room_prompt" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -17,34 +44,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="44dp"
         android:text="@string/select" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/textView1"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="308dp"
-        android:text="@string/to" />
-
-    <Spinner
-        android:id="@+id/start_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="74dp"
-        android:entries="@array/room_arrays"
-        android:prompt="@string/room_prompt" />
-
-    <Spinner
-        android:id="@+id/end_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="110dp"
-        android:entries="@array/room_arrays"
-        android:prompt="@string/room_prompt" />
 
 </RelativeLayout>
