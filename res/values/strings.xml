@@ -68,5 +68,12 @@
 
     <string name="title_activity_nfclocation">NFCLocation</string>
     <string name="title_activity_nfcwentworth_first">NFCWentworthFirst</string>
+    <string name="title_activity_nfcdobbs_first">NFCDobbsFirst</string>
+    <string name="title_activity_nfcrubenstain">NFCRubenstain</string>
+    <string name="title_activity_nfcrubenstain_first">NFCRubenstainFirst</string>
+    <string name="title_activity_nfcwatson_first">NFCWatsonFirst</string>
+    <string name="title_activity_nfcwillson_first">NFCWillsonFirst</string>
+    <string name="title_activity_nfcwillston_first">NFCWillstonFirst</string>
+    <string name="title_activity_nfckingman">NFCKingman</string>
 
 </resources>
