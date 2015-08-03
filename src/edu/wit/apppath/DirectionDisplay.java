@@ -84,10 +84,10 @@ public class DirectionDisplay extends Activity implements AsyncResponse{
 					if(findViewById(R.id.nfcButton) == v)
 					{
 						//Log.d(TAG, lView.getItemAtPosition(0).toString());
-						//Intent intent = new Intent();
-						//intent.setClass(DirectionDisplay.this, NFC.class);
+						Intent intent = new Intent();
+						intent.setClass(DirectionDisplay.this, NFC.class);
 						
-						//startActivity(intent);
+						startActivity(intent);
 					}
 				}
 			};
@@ -96,26 +96,35 @@ public class DirectionDisplay extends Activity implements AsyncResponse{
 			nfcButton.setOnClickListener(listener);
 	        
             // ListView Item Click Listener
-	       /* lView.setOnItemClickListener(new OnItemClickListener() {
+	        lView.setOnItemClickListener(new OnItemClickListener() {
  
                   @Override
                   public void onItemClick(AdapterView<?> parent, View view,
                      int position, long id) {
                     
                    // ListView Clicked item index
-                   int itemPosition     = position;
+                 //  int itemPosition     = position;
                    
                    // ListView Clicked item value
-                   String  itemValue    = (String) parent.getItemAtPosition(position);
+                  // String  itemValue    = (String) parent.getItemAtPosition(position);
                       
                     // Show Alert 
-                    Toast.makeText(getApplicationContext(),
+                   /* Toast.makeText(getApplicationContext(),
                       "Position :"+itemPosition+"  ListItem : " +itemValue , Toast.LENGTH_LONG)
-                      .show();
+                      .show();*/
+                    
+					Intent intent = new Intent();
+					intent.setClass(DirectionDisplay.this, Map.class);
+					Bundle bundle = new Bundle();
+					bundle.putString("Floor", "Floor 1");
+					
+					intent.putExtras(bundle);
+					
+					startActivity(intent);
                  
                   }
     
-             }); */
+             }); 
 
 	       
 
