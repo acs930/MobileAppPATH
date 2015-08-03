@@ -53,69 +53,8 @@
             android:label="@string/title_activity_nfcwentworth_first" >
             <intent-filter>
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
                 <category android:name="android.intent.category.DEFAULT" />
-
                 <data android:mimeType="application/nfc.path.wentfirst" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".NFCDobbsFirst"
-            android:label="@string/title_activity_nfcdobbs_first" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:mimeType="application/nfc.path.dobbfirst" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".NFCRubenstainFirst"
-            android:label="@string/title_activity_nfcrubenstain_first" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:mimeType="application/nfc.path.rubefirst" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".NFCWatsonFirst"
-            android:label="@string/title_activity_nfcwatson_first" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:mimeType="application/nfc.path.watfirst" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".NFCWillsonFirst"
-            android:label="@string/title_activity_nfcwillson_first" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:mimeType="application/nfc.path.wilsfirst" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".NFCWillstonFirst"
-            android:label="@string/title_activity_nfcwillston_first" >
-        </activity>
-        <activity
-            android:name=".NFCKingman"
-            android:label="@string/title_activity_nfckingman" >
-            <intent-filter>
-                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-
-                <data android:mimeType="application/nfc.path.kingfirst" />
             </intent-filter>
         </activity>
     </application>
