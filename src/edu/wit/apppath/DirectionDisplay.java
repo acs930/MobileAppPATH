@@ -172,7 +172,7 @@ public class DirectionDisplay extends Activity implements AsyncResponse{
 		    	//findViewById(R.id.directionsList);
 		    	adpt.setPathList(result);
 		    	adpt.notifyDataSetChanged();
-		    	nfcButton.setText("Hello Worl");
+		    	
 		    	
 		    	Log.d(TAG, result.get(0).getDirection());
 		    	Log.d(TAG, "woot");

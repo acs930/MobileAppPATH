@@ -9,15 +9,17 @@
         android:id="@+id/directionsList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-         >
+        android:layout_above="@+id/nfcButton" >
+
     </ListView>
-    
+
     <Button
         android:id="@+id/nfcButton"
-        android:layout_below="@+id/directionsList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="67dp"
         android:text="@string/nfcHelp" />
-
 
 </RelativeLayout>
