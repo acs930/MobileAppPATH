@@ -3,6 +3,7 @@ package edu.wit.apppath;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,6 +20,7 @@ public class Directions extends Activity implements OnItemSelectedListener{
 
 	String startRoom;
 	String endRoom;
+	private static final String TAG = "DirectionsActivity";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +57,7 @@ public class Directions extends Activity implements OnItemSelectedListener{
 					bundle.putString("Start", startRoom);
 					bundle.putString("Destination", endRoom);
 					
-					
+					Log.d(TAG, "HelloWorld");
 					intent.putExtras(bundle);
 					startActivity(intent);
 				}
