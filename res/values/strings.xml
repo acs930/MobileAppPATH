@@ -13,18 +13,17 @@
         <item>Floor 1</item>
         <item>Floor 2</item>
         <item>Floor 3</item>
-        <item>Floor 4</item>
     </string-array>
 
     <string name="title_activity_floor_select">FloorSelect</string>
-    <string name="from">FROM</string>
-    <string name="to">TO</string>
+    <string name="from">Starting Room</string>
+    <string name="to">Ending Room</string>
     <string name="select">Select</string>
     <string name="action_settings">Settings</string>
     <string name="room_prompt">Choose a room</string>
     <string name="nfcHelp">Click here to find current position via NFC.</string>
 
-     <string-array name="room_arrays">
+    <string-array name="room_arrays">
         <item>Dobbs Hall 002</item>
         <item>Dobbs Hall 003</item>
         <item>Dobbs Hall 005</item>
@@ -84,10 +83,13 @@
         <item>Willson Hall 102</item>
         <item>Willson Hall 103</item>
         <item>Willson Hall 105</item>
-	<item>Willson Hall 202</item>
-	<item>Willson Hall 204</item>
+        <item>Willson Hall 202</item>
+        <item>Willson Hall 204</item>
     </string-array>
 
     <string name="title_activity_direction_display">DirectionDisplay</string>
+    <string name="title_activity_nfclocation">NFCLocation</string>
+    <string name="title_activity_nfcwentworth_first">NFCWentworthFirst</string>
+    <string name="title_activity_nfcdisplay">NFCDisplay</string>
 
 </resources>
