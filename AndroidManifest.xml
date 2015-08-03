@@ -38,6 +38,10 @@
             android:name="edu.wit.apppath.FloorSelect"
             android:label="@string/title_activity_floor_select" >
         </activity>
+        <activity
+            android:name="edu.wit.apppath.DirectionDisplay"
+            android:label="@string/title_activity_direction_display" >
+        </activity>
     </application>
 
 </manifest>
