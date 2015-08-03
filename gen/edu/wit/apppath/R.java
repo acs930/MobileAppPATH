@@ -65,11 +65,9 @@ public final class R {
         public static final int activity_map=0x7f030003;
         public static final int activity_nfc=0x7f030004;
         public static final int activity_nfclocation=0x7f030005;
-        public static final int activity_nfcwentworth_first=0x7f030006;
     }
     public static final class menu {
         public static final int nfclocation=0x7f080000;
-        public static final int nfcwentworth_first=0x7f080001;
     }
     public static final class string {
         public static final int action_settings=0x7f05000a;
@@ -84,7 +82,6 @@ public final class R {
         public static final int title_activity_map=0x7f050003;
         public static final int title_activity_nfc=0x7f050005;
         public static final int title_activity_nfclocation=0x7f05000c;
-        public static final int title_activity_nfcwentworth_first=0x7f05000d;
         public static final int to=0x7f050008;
     }
     public static final class style {

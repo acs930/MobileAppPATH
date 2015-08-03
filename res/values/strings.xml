@@ -67,6 +67,5 @@
     </string-array>
 
     <string name="title_activity_nfclocation">NFCLocation</string>
-    <string name="title_activity_nfcwentworth_first">NFCWentworthFirst</string>
 
 </resources>
