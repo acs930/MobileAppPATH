@@ -11,33 +11,23 @@
         android:text="@string/from"
         android:textSize="40dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/start_spinner"
-        android:layout_marginTop="92dp"
-        android:text="@string/to"
-        android:textSize="40dp" />
-
-    <Spinner
-        android:id="@+id/start_spinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="45dp"
-        android:entries="@array/room_arrays"
-        android:prompt="@string/room_prompt" />
-
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="44dp"
         android:text="@string/select" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="308dp"
+        android:text="@string/to"
+        android:textSize="40dp" />
 
     <Spinner
         android:id="@+id/end_spinner"
@@ -45,8 +35,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="110dp"
         android:entries="@array/room_arrays"
         android:prompt="@string/room_prompt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:text="Wentworth 001"
+        android:textSize="40dp" />
 
 </RelativeLayout>
