@@ -9,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/from"
-        android:textSize="40dp" />
+        android:textSize="30dp" />
 
     <Button
         android:id="@+id/button1"
@@ -21,13 +21,23 @@
         android:text="@string/select" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="308dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="Wentworth 001"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
         android:text="@string/to"
-        android:textSize="40dp" />
+        android:textSize="30dp" />
 
     <Spinner
         android:id="@+id/end_spinner"
@@ -35,18 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="22dp"
         android:entries="@array/room_arrays"
         android:prompt="@string/room_prompt" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="85dp"
-        android:text="Wentworth 001"
-        android:textSize="40dp" />
 
 </RelativeLayout>
