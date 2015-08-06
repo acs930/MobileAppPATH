@@ -27,18 +27,40 @@ public final class R {
     }
     public static final class drawable {
         public static final int direction=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int main_building_floor0=0x7f020002;
-        public static final int main_building_floor1=0x7f020003;
-        public static final int main_building_floor2=0x7f020004;
-        public static final int main_building_floor3=0x7f020005;
-        public static final int map=0x7f020006;
-        public static final int nfc=0x7f020007;
-        public static final int png_first=0x7f020008;
-        public static final int png_ground=0x7f020009;
-        public static final int png_second=0x7f02000a;
-        public static final int png_third=0x7f02000b;
-        public static final int round_nfc=0x7f02000c;
+        public static final int dobbs_00=0x7f020001;
+        public static final int dobbs_01=0x7f020002;
+        public static final int dobbs_02=0x7f020003;
+        public static final int dobbs_03=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int kingman_01=0x7f020006;
+        public static final int kingman_02=0x7f020007;
+        public static final int main_building_floor0=0x7f020008;
+        public static final int main_building_floor1=0x7f020009;
+        public static final int main_building_floor2=0x7f02000a;
+        public static final int main_building_floor3=0x7f02000b;
+        public static final int map=0x7f02000c;
+        public static final int nfc=0x7f02000d;
+        public static final int png_first=0x7f02000e;
+        public static final int png_ground=0x7f02000f;
+        public static final int png_second=0x7f020010;
+        public static final int png_third=0x7f020011;
+        public static final int round_nfc=0x7f020012;
+        public static final int rubenstein_00=0x7f020013;
+        public static final int rubenstein_01=0x7f020014;
+        public static final int rubenstein_02=0x7f020015;
+        public static final int watson_00=0x7f020016;
+        public static final int watson_01=0x7f020017;
+        public static final int watson_02=0x7f020018;
+        public static final int wentworth_00=0x7f020019;
+        public static final int wentworth_01=0x7f02001a;
+        public static final int wentworth_02=0x7f02001b;
+        public static final int wentworth_03=0x7f02001c;
+        public static final int williston_00=0x7f02001d;
+        public static final int williston_01=0x7f02001e;
+        public static final int williston_02=0x7f02001f;
+        public static final int williston_03=0x7f020020;
+        public static final int wilson_01=0x7f020021;
+        public static final int wilson_02=0x7f020022;
     }
     public static final class id {
         public static final int action_settings=0x7f09000f;
