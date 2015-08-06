@@ -65,15 +65,24 @@ public final class R {
         public static final int activity_main=0x7f030003;
         public static final int activity_map=0x7f030004;
         public static final int activity_nfc=0x7f030005;
-        public static final int activity_nfcdisplay=0x7f030006;
-        public static final int activity_nfclocation=0x7f030007;
-        public static final int activity_nfcwentworth_first=0x7f030008;
-        public static final int list_item=0x7f030009;
+        public static final int activity_nfcdobbs_first=0x7f030006;
+        public static final int activity_nfckingman_first=0x7f030007;
+        public static final int activity_nfclocation=0x7f030008;
+        public static final int activity_nfcrubenstein_first=0x7f030009;
+        public static final int activity_nfcwatson_first=0x7f03000a;
+        public static final int activity_nfcwentworth_first=0x7f03000b;
+        public static final int activity_nfcwillston_first=0x7f03000c;
+        public static final int list_item=0x7f03000d;
     }
     public static final class menu {
         public static final int nfcdisplay=0x7f080000;
-        public static final int nfclocation=0x7f080001;
-        public static final int nfcwentworth_first=0x7f080002;
+        public static final int nfcdobbs_first=0x7f080001;
+        public static final int nfckingman_first=0x7f080002;
+        public static final int nfclocation=0x7f080003;
+        public static final int nfcrubenstein_first=0x7f080004;
+        public static final int nfcwatson_first=0x7f080005;
+        public static final int nfcwentworth_first=0x7f080006;
+        public static final int nfcwillston_first=0x7f080007;
     }
     public static final class string {
         public static final int action_settings=0x7f05000a;
@@ -90,8 +99,13 @@ public final class R {
         public static final int title_activity_map=0x7f050003;
         public static final int title_activity_nfc=0x7f050005;
         public static final int title_activity_nfcdisplay=0x7f050010;
+        public static final int title_activity_nfcdobbs_first=0x7f050011;
+        public static final int title_activity_nfckingman_first=0x7f050014;
         public static final int title_activity_nfclocation=0x7f05000e;
+        public static final int title_activity_nfcrubenstein_first=0x7f050015;
+        public static final int title_activity_nfcwatson_first=0x7f050013;
         public static final int title_activity_nfcwentworth_first=0x7f05000f;
+        public static final int title_activity_nfcwillston_first=0x7f050012;
         public static final int to=0x7f050008;
     }
     public static final class style {

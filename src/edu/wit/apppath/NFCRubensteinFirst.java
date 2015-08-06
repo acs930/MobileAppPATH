@@ -16,16 +16,16 @@ import android.widget.Toast;
 import android.widget.AdapterView.OnItemSelectedListener;
 import edu.wit.apppath.R;
 
-public class NFCWentworthFirst extends Activity implements OnItemSelectedListener {
+public class NFCRubensteinFirst extends Activity implements OnItemSelectedListener {
 
-	String startRoom = "Wentworth001";
+	String startRoom = "Rubenstein105";
 	String endRoom;
-	private static final String TAG = "NFCWentworthFirst";
+	private static final String TAG = "NFCRubensteinFirst";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_nfcwentworth_first);
+		setContentView(R.layout.activity_nfcrubenstein_first);
 		
 		Log.d(TAG, "Im in");
 		
@@ -53,7 +53,7 @@ public class NFCWentworthFirst extends Activity implements OnItemSelectedListene
 				if(findViewById(R.id.button1) == v)
 				{
 					Intent intent = new Intent();
-					intent.setClass(NFCWentworthFirst.this, DirectionDisplay.class);
+					intent.setClass(NFCRubensteinFirst.this, DirectionDisplay.class);
 					
 					Bundle bundle = new Bundle();
 					bundle.putString("Start", startRoom);

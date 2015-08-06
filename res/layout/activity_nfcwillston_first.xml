@@ -27,7 +27,7 @@
         android:layout_below="@+id/textView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp"
-        android:text="Wentworth 001"
+        android:text="Williston 103"
         android:textSize="30dp" />
 
     <TextView
