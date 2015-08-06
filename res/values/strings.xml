@@ -91,5 +91,10 @@
     <string name="title_activity_nfclocation">NFCLocation</string>
     <string name="title_activity_nfcwentworth_first">NFCWentworthFirst</string>
     <string name="title_activity_nfcdisplay">NFCDisplay</string>
+    <string name="title_activity_nfcdobbs_first">NFCDobbsFirst</string>
+    <string name="title_activity_nfcwillston_first">NFCWillstonFirst</string>
+    <string name="title_activity_nfcwatson_first">NFCWatsonFirst</string>
+    <string name="title_activity_nfckingman_first">NFCKingmanFirst</string>
+    <string name="title_activity_nfcrubenstein_first">NFCRubensteinFirst</string>
 
 </resources>

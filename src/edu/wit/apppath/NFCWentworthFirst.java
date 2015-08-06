@@ -20,25 +20,27 @@ public class NFCWentworthFirst extends Activity implements OnItemSelectedListene
 
 	String startRoom = "Wentworth001";
 	String endRoom;
-	private static final String TAG = "DirectionsActivity";
+	private static final String TAG = "NFCWentworthFirst";
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_directions);
+		setContentView(R.layout.activity_nfcwentworth_first);
+		
+		Log.d(TAG, "Im in");
 		
 		//setting up spinners
-		Spinner startSpinner = (Spinner) findViewById(R.id.start_spinner);
+		//Spinner startSpinner = (Spinner) findViewById(R.id.start_spinner);
+		
 		// Create an ArrayAdapter using the string array and a default spinner layout
-		ArrayAdapter<CharSequence> startAdapter = ArrayAdapter.createFromResource(this,
-		        R.array.room_arrays, android.R.layout.simple_spinner_item);
+		//ArrayAdapter<CharSequence> startAdapter = ArrayAdapter.createFromResource(this,R.array.room_arrays, android.R.layout.simple_spinner_item);
 		ArrayAdapter<CharSequence> endAdapter = ArrayAdapter.createFromResource(this, R.array.room_arrays, android.R.layout.simple_spinner_item);
 		// Specify the layout to use when the list of choices appears
-		startAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		//startAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		endAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		// Apply the adapter to the spinner
-		startSpinner.setAdapter(startAdapter);
-		startSpinner.setOnItemSelectedListener(this);
+		//startSpinner.setAdapter(startAdapter);
+		//startSpinner.setOnItemSelectedListener(this);
 		
 		Spinner endSpinner = (Spinner) findViewById(R.id.end_spinner);
 		endSpinner.setAdapter(endAdapter);
@@ -51,7 +53,7 @@ public class NFCWentworthFirst extends Activity implements OnItemSelectedListene
 				if(findViewById(R.id.button1) == v)
 				{
 					Intent intent = new Intent();
-					intent.setClass(NFCWentworthFirst.this, NFCDisplay.class);
+					intent.setClass(NFCWentworthFirst.this, DirectionDisplay.class);
 					
 					Bundle bundle = new Bundle();
 					bundle.putString("Start", startRoom);

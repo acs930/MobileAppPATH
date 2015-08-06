@@ -29,6 +29,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -40,7 +41,7 @@ public class DirectionDisplay extends Activity implements AsyncResponse{
 	String thePath;
 	TextView outputPath;
 	SimpleAdapter adpt;// = new SimpleAdapter(new ArrayList<DirectionStep>(), this);
-	Button nfcButton;
+	ImageButton nfcButton;
 	 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -92,7 +93,7 @@ public class DirectionDisplay extends Activity implements AsyncResponse{
 				}
 			};
 			
-			nfcButton = (Button)findViewById(R.id.nfcButton);
+			nfcButton = (ImageButton)findViewById(R.id.nfcButton);
 			nfcButton.setOnClickListener(listener);
 	        
             // ListView Item Click Listener
