@@ -119,12 +119,20 @@ public class DirectionDisplay extends Activity implements AsyncResponse{
 					Intent intent = new Intent();
 					intent.setClass(DirectionDisplay.this, Map.class);
 					Bundle bundle = new Bundle();
-					if(direction.getFloor() != 0)
+					if(direction.getFloor() != 0){
 						bundle.putString("Floor", "Floor "+ direction.getFloor());
-					else if(direction.getFloor() == 0)
+					    bundle.putString("Building", direction.getBuilding());
+					    Log.d(TAG,direction.getBuilding());
+					}
+					else if(direction.getFloor() == 0){
 						bundle.putString("Floor", "Ground Floor");
-					else
+						bundle.putString("Building", direction.getBuilding());
+						Log.d(TAG,direction.getBuilding());
+					}
+					else{
+						bundle.putString("Building", direction.getBuilding());
 						bundle.putString("Floor", "Floor 1");
+					}
 					
 					intent.putExtras(bundle);
 					
