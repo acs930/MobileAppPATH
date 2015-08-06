@@ -11,21 +11,13 @@
         android:text="@string/from"
         android:textSize="40dp" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="44dp"
-        android:text="@string/select" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="308dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/start_spinner"
+        android:layout_marginTop="92dp"
         android:text="@string/to"
         android:textSize="40dp" />
 
@@ -35,9 +27,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView1"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="45dp"
         android:entries="@array/room_arrays"
         android:prompt="@string/room_prompt" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/select" />
 
     <Spinner
         android:id="@+id/end_spinner"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="52dp"
         android:entries="@array/room_arrays"
         android:prompt="@string/room_prompt" />
 
